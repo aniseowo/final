@@ -1,0 +1,175 @@
+body {
+    background-color: #5081ED;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    height: 52px;
+    text-align: center;
+    width: 100%;
+    left: -1px;
+    top: -1px;
+    border-radius: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-bottom:1px solid white;
+    
+}
+.headerItem {
+    margin: 9.4px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.name {
+    padding-left: 62px;
+    padding-right: 62px;
+}
+.bi-bi-globe-europe-africa {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.name, .contact, .covid {
+    border-right: 1px solid white;
+    height: 52px;
+    color: white;
+    
+}
+a {
+    font-style: none;
+}
+.contact {
+    padding-right: 527px;
+}
+.covid {
+    margin-left: 30px;
+    padding-right: 45px;
+}
+.siteHeader {
+    padding-top: 120px;
+    margin-left: 300px;
+    margin-right: 100px;
+    font-size: 120px;
+    line-height: 120px;
+    font-weight: bold;
+    height: 360px;
+    width: 859px;
+    border-radius: 0;
+    text-shadow: 1px 1px 2px black;
+    
+}
+
+.cloud1 {
+    z-index: -1;
+    position: absolute;
+    width:100%;
+    left: 0px;
+    top: -750px;
+}
+.pigeon {
+    height: 243px;
+    width: 163px;
+    right: 1041px;
+    top: 581px;
+    border-radius: 0px;
+    position: absolute;
+
+}
+.cookiesAcception {
+    height: 42px;
+    width: 437px;
+    top: 796px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    padding-left: 341px;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 437px;
+    height: 68px;
+    margin-left: 379px;
+    border-radius: 20px;
+}
+.cookiesAccept {
+    position: absolute;
+    width: 437px;
+    height: 42px;
+    left: 481px;
+    top: 680px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+}
+.cookiesAcceptButton {
+    background:none;
+    border: 0;
+    position: absolute;
+    width: 85px;
+    height: 68px;
+    left: 1000px;
+    top: 679px;
+    border-left: 3px white solid;
+    padding-left: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 14px;
+}
+
+
+
+
+
+h2 {
+    position: absolute;
+width: 100vh;
+height: 30px;
+left: 625px;
+top: 923px;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 50px;
+color: white;
+}
+.principes {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 424px;
+}
+.principe {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    height: 193.5px;
+    width: 178px;
+    left: 637px;
+    padding-top: 14px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+}
+svg {
+    height: 33px;
+    width: 35px;
+
+border-radius: 0px;
+
+}
