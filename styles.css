@@ -4,6 +4,7 @@ body {
 }
 
 .header {
+    text-decoration: none;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -21,22 +22,27 @@ body {
     
 }
 .headerItem {
-    margin: 9.4px;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    width: 300px;
+    height: 31.35px;
+    top: 9.4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+
     
-}
-.name {
-    padding-left: 62px;
-    padding-right: 62px;
 }
 .bi-bi-globe-europe-africa {
     padding-right: 30px;
     padding-left: 30px;
 }
-
+.header a{
+    text-decoration: none;
+    color: white;
+}
 .name, .contact, .covid {
-    border-right: 1px solid white;
     height: 52px;
     color: white;
     
@@ -45,12 +51,16 @@ a {
     font-style: none;
 }
 .contact {
-    padding-right: 527px;
+    padding-right: 300px;
 }
 .covid {
-    margin-left: 30px;
-    padding-right: 45px;
+    margin-left: 10px;
+    padding-right: 350px;
 }
+
+
+
+
 .siteHeader {
     padding-top: 120px;
     margin-left: 300px;
@@ -136,7 +146,7 @@ a {
 
 
 
-h2 {
+.work h2 {
     position: absolute;
     width: 100vh;
     height: 30px;
@@ -249,7 +259,8 @@ svg {
 }
 .approach {
     color: white;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid white; 
+    
 }
 .approach h3 {
     position: absolute;
@@ -278,6 +289,57 @@ svg {
     height: 855px;
     margin-left: 926px;
     margin-top: 400px;
+    padding-bottom: 0px;
+}
+.experience {
+    display: flex;
+    margin-top: 250px;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    
+}
+.experience a {
+    color: white;
+    text-decoration: none;
+}
+
+.experience h2 {
+    position: absolute;
+    width: 100vh;
+    height: 30px;
+    text-align: center;
+    top: 3760px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    color: white;
+}
+.sls img:hover, .streaming img:hover {
+    height: 305px;
+    width: 332px;
+}
+.sls img {
+    height: 295px;
+    width: 322px;
+    
+}
+
+.learnAbout img {
+    height: 356px;
+    width: 382px;
+    border-radius: 0px;
+
+    
+}
+.streaming img {
+    height: 295px;
+    width: 322px;
+    
+    border-radius: 0px;
+    
 }
 
 
@@ -285,5 +347,86 @@ svg {
 
 
 
-
-
+.lastPage {
+    display: flex;
+    justify-content: center;
+}
+.lastPage h3 {
+    width: 623px;
+    height: 83px;
+    top: 5666px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 120px;
+}
+input {
+    height: 47px;
+    width: 622px;
+    top: 5773px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 23px;
+}
+.sendButton {
+    box-sizing: border-box;
+    position: absolute;
+    width: 622px;
+    height: 47px;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 300px;
+}
+.end {
+    position: absolute;
+    margin-top: 150px;
+    width: 100%;
+    height: 140px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+}
+.terms {
+    color: white;
+    padding-left: 136px;
+    align-items: baseline;
+    display: flex;
+   
+}
+.terms h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    margin-right: 25px;
+    
+}
+.rights p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: white;
+    padding-left: 136px;
+}
+.icons {
+    position: absolute;
+    width: 162px;
+    height: 23.61px;
+    left: 1142px;
+    top: 59px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons svg {
+    color: white;
+    height: 23px;
+    width: 25px;
+    
+}
