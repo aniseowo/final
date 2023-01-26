@@ -1,5 +1,5 @@
 body {
-    background-color: #5081ED;
+    background-color: #5081ed;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -84,7 +84,7 @@ a {
 .cookiesAcception {
     height: 42px;
     width: 437px;
-    top: 796px;
+    top: 900px;
     font-size: 14px;
     font-weight: 500;
     line-height: 14px;
@@ -133,29 +133,31 @@ a {
 
 h2 {
     position: absolute;
-width: 100vh;
-height: 30px;
-left: 625px;
-top: 923px;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 50px;
-color: white;
+    width: 100vh;
+    height: 30px;
+    left: 625px;
+    top: 1000px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    color: white;
 }
 .principes {
     display: flex;
     justify-content: space-around;
-    padding-top: 424px;
+    padding-top:600px;
+    border-bottom: 1px solid white;
+    padding-bottom: 273px;
 }
 .principe {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
     border-radius: 20px;
-    height: 193.5px;
-    width: 178px;
+    height: 200px;
+    width: 185px;
     left: 637px;
-    padding-top: 14px;
+    padding-top: 17px;
     text-align: center;
     font-size: 12px;
     font-weight: 400;
@@ -168,7 +170,108 @@ color: white;
 svg {
     height: 33px;
     width: 35px;
+    border-radius: 0px;
+}
 
-border-radius: 0px;
 
+
+.quality {
+    margin-top: 35px;
+    display: flex;
+    color: white;
+}
+.quality h3{
+    position: absolute;
+    width: 247px;
+    height: 14px;
+    left: 133px;
+    top: 1900px;
+    font-style: bolder;
+    font-weight: 400;
+    font-size: 40px;
+    
+}
+.quality p {
+    margin-top: 150px;
+    height: 90px;
+    width: 566px;
+    margin-left: 106px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+}
+.quality img {
+    height: 559px;
+    width: 861px;
+    left: 563px;
+    top: 1711px;
+    border-radius: 0px;
+}
+.touch {
+    color: white;
+}
+.touch img {
+    position: absolute;
+    width: 1100px;
+    height: 700px;
+    left: -400px;
+    top: 2338px;
+    transform: matrix(-0.98, -0.19, -0.19, 0.98, 0, 0);
+}
+.touch h3{
+    position: absolute;
+    width: 360px;
+    height: 14px;
+    left: 1002px;
+    top: 2631px;
+    font-style: bolder;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 14px;
+}
+.touch p {
+    position: absolute;
+    width: 449px;
+    height: 90px;
+    left: 876px;
+    top: 2700px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: right;
+}
+.approach {
+    color: white;
+    border-bottom: 1px solid white;
+}
+.approach h3 {
+    position: absolute;
+    width: 600px;
+    height: 14px;
+    left: 133px;
+    top: 3300px;
+    font-style: bolder;
+    font-weight: 400;
+    font-size: 40px;
+}
+.approach p{
+    position: absolute;
+    width: 449px;
+    height: 90px;
+    margin-left: 106px;
+    top: 3400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: left;
+}
+.approach img {
+    width: 570px;
+    height: 855px;
+    margin-left: 926px;
+    margin-top: 400px;
+    
 }
