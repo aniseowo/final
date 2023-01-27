@@ -1,0 +1,254 @@
+body {
+    background-color: #5081ed;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.header {
+    text-decoration: none;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    height: 52px;
+    text-align: center;
+    width: 100%;
+    left: -1px;
+    top: -1px;
+    border-radius: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-bottom:1px solid white;
+    
+}
+.headerItem {
+    position: absolute;
+    width: 300px;
+    height: 31.35px;
+    top: 9.4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px; 
+}
+.bi-bi-globe-europe-africa {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.name, .contact, .covid {
+    height: 52px;
+    color: white;
+    
+}
+a {
+    font-style: none;
+}
+.contact {
+    padding-right: 300px;
+}
+.covid {
+    margin-left: 10px;
+    padding-right: 350px;
+}
+
+
+
+
+
+
+
+.slsInf {
+    position: absolute;
+    width: 977px;
+    height: 901.04px;
+    left: 231px;
+    top: 98.96px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding-left: 41px;
+    padding-right: 41px;
+}
+.slsInf h1 {
+    width: 977px;
+    text-align: center;
+    height: 30px;
+    left: 402px;
+    top: 154px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 30px;
+}
+.challenge h3 {
+    position: absolute;
+    width: 122px;
+    height: 30px;
+    padding-left: 22px;
+    top: 130px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+.challenge p {
+    width: 903px;
+    margin-top: 150px;
+    padding-left: 22px;
+    top: 286px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.solution h3 {
+    position: absolute;
+    width: 122px;
+    height: 30px;
+    padding-left: 22px;
+    top: 350px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+.solution p {
+    position: absolute;
+    width: 893px;
+    height: 210px;
+    padding-left: 22px;
+    top: 420px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.result h3 {
+    position: absolute;
+    width: 122px;
+    height: 30px;
+    padding-left: 22px;
+    top: 640px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+}
+.result p {
+    position: absolute;
+    width: 857px;
+    height: 90px;
+    padding-left: 22px;
+    top: 710px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.cloud1 {
+    position: absolute;
+    width: 1123px;
+    height: 402px;
+    left: -692px;
+    top: 720px;
+    z-index: -1;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.cloud2 {
+    position: absolute;
+    height: 402px;
+    left: 837px;
+    top: 339px;
+}
+
+
+.lastPage {
+    margin-top: 1150px;
+    justify-content: center;
+    margin-left: 415px;
+}
+.lastPage h3 {
+    width: 623px;
+    height: 83px;
+    top: 5666px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 120px;
+}
+input {
+    height: 47px;
+    width: 622px;
+    top: 5773px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 23px;
+}
+.sendButton {
+    box-sizing: border-box;
+    position: absolute;
+    width: 622px;
+    height: 47px;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 300px;
+}
+
+
+.end {
+    position: absolute;
+    margin-top: 150px;
+    width: 100%;
+    height: 140px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+}
+.terms {
+    color: white;
+    padding-left: 136px;
+    align-items: baseline;
+    display: flex;
+   
+}
+.terms h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    margin-right: 25px;
+    
+}
+.rights p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: white;
+    padding-left: 136px;
+}
+.icons {
+    position: absolute;
+    width: 162px;
+    height: 23.61px;
+    left: 1142px;
+    top: 59px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons svg {
+    color: white;
+    height: 23px;
+    width: 25px;
+    
+}
