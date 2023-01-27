@@ -328,22 +328,19 @@ svg {
 .sls img {
     height: 295px;
     width: 322px;
-    
 }
 
 .learnAbout img {
     height: 356px;
     width: 382px;
     border-radius: 0px;
-
-    
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .streaming img {
     height: 295px;
     width: 322px;
-    
     border-radius: 0px;
-    
 }
 
 
