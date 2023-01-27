@@ -1,0 +1,196 @@
+body {
+    background-color: #5081ed;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.header {
+    text-decoration: none;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    height: 52px;
+    text-align: center;
+    width: 100%;
+    left: -1px;
+    top: -1px;
+    border-radius: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-bottom:1px solid white;
+    
+}
+.headerItem {
+    position: absolute;
+    width: 300px;
+    height: 31.35px;
+    top: 9.4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+
+    
+}
+.bi-bi-globe-europe-africa {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.name, .contact, .covid {
+    height: 52px;
+    color: white;
+    
+}
+a {
+    font-style: none;
+}
+.contact {
+    padding-right: 300px;
+}
+.covid {
+    margin-left: 10px;
+    padding-right: 350px;
+}
+
+
+.cases {
+    position: absolute;
+    width: 977px;
+    height: 1853.26px;
+    left: 231px;
+    top: 95.74px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+}
+.cases h1 {
+    width: 977px;
+    text-align: center;
+    height: 30px;
+    left: 402px;
+    top: 154px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 30px;
+}
+.team h3 {
+    position: absolute;
+    width: 977px;
+    height: 30px;
+    padding-left: 22px;
+    top: 130px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+.team p {
+    width: 890px;
+    margin-top: 150px;
+    height: 270px;
+    padding-left: 22px;
+    top: 286px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.case1 h3 {
+    position: absolute;
+    width: 977px;
+    height: 30px;
+    padding-left: 22px;
+    top: 550px;
+    font-style: bolder;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+.case1 p {
+    width: 890px;
+    margin-top: 150px;
+    height: 270px;
+    padding-left: 22px;
+    top: 286px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.case1 h4 {
+    position: absolute;
+    width: 977px;
+    height: 30px;
+    padding-left: 22px;
+    top: 660px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.p2 {
+    position:absolute ;
+    width: 770px;
+    height: 60px;
+    padding-left: 22px;
+    padding-top: 318px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.case2 h3 {
+    position: absolute;
+    width: 977px;
+    height: 30px;
+    padding-left: 22px;
+    top: 850px;
+    font-style: bolder;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+.case2 p {
+    position:absolute;
+    width: 770px;
+    height: 60px;
+    padding-left: 22px;
+    top: 910px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.case2 h4 {
+    position: absolute;
+    width: 977px;
+    height: 30px;
+    padding-left: 22px;
+    top: 950px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+.slsCase {
+    color: black;
+    text-decoration: underline;
+    position: absolute;
+    width: 977px;
+    height: 30px;
+    top: 1040px;
+    padding-left: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
